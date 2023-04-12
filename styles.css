@@ -21,23 +21,74 @@ body {
 header {
     position: relative;
     padding: 1;
+    text-decoration: none;
 }
 
-nav 1 {
+a {
     font-size: large;
     center
+    text-decoration: none;
 }
 
-nav 2 {
-    left:
-    inline 
+nav ul {
+    list-style-type: none; 
+    position: absolute;
+    top: 0.5rem
+    left: 1rem
 }
 
-nav 3 {
-    right:
-    inline
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+    text-decoration: none;
 }
 
-main: Home {
+ul {
+    list-style-type: none;
+    position: absolute
+    top: 0.5
+    right: 1rem
+}
+
+li {}
+
+main section: home {
     background-color: black
+}
+
+main section: .home img {
+    width: 600px;
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+main section: span {
+    text-color: white;
+}
+
+main section: .About img {
+    float: :right;
+    margin-left: 2rem
+    width: auto
+}
+
+main section: p {
+    margin:auto
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10rem;
+    width: 100%
+}
+
+footer ul {
+    position: absolute;
+}
+
+footer li {
+    display: inline;
+    font-size: small;
 }
