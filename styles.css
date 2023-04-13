@@ -18,6 +18,16 @@ body {
     margin: 0%;
 }
 
+/* Convert to classes */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexcard {
+    width:fit-content;
+}
+
 header {
     position: relative;
     padding: 1;
